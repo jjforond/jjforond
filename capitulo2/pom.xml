@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>Capitulo2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <exec.mainClass>com.mycompany.capitulo2.Main</exec.mainClass>
+    </properties>
+    <repositories>
+        <repository>
+            <id>maven-bancolombia</id>
+            <name>maven-bancolombia</name>
+            <url>https://artifactory.apps.bancolombia.com/maven-bancolombia</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <name>Central Repository Banco</name>
+            <url>https://artifactory.apps.bancolombia.com/maven-bancolombia</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
+</project>
+ 
